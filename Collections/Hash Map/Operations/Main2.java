@@ -30,14 +30,6 @@ class Product {
         map.putIfAbsent(pro, quantity);
     }
 
-    public void addItem(HashMap<String, Integer> map) {
-        System.out.println("Enter item name:");
-        String pro = scanner.next();
-        System.out.println("Enter Quantity:");
-        int quantity = scanner.nextInt();
-        map.putIfAbsent(pro, quantity);
-    }
-
     public void checkQuantity(HashMap<String, Integer> map) {
         System.out.println("Enter item name:");
         String pro = scanner.next();
