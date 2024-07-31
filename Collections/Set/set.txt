@@ -1,0 +1,7 @@
+Set:does not allow duplicate element because of comparator parent class extends by set
+types{
+    1.hashset - does not maintain insertion of elements
+    2.Linkedhashset- maintains insertion order
+    3.Treeset- maintain insertion order and convert them to ascending order
+}
+/*Int[] cannot be converted into Collections,so Integer[] should be used.
